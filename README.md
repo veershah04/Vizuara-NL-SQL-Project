@@ -1,13 +1,13 @@
-# 🤖 SQL Database Agent (From Scratch)
-
 <div align="center">
+
+# 🤖 SQL Database Agent From Scratch
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Gemini](https://img.shields.io/badge/LLM-Gemini%201.5%20Flash-orange.svg)
 
 *A lightweight ReAct-based agent that interprets natural language queries and interacts with SQL databases*
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Tools](#-available-tools) • [Example](#-example-run-with-trace)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Tools](#%EF%B8%8F-available-tools) • [Example](#-example-run-with-trace)
 
 </div>
 
