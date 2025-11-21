@@ -1,0 +1,95 @@
+======================================================================
+SQL DATABASE AGENT - TEST LOG
+Timestamp: 2025-11-21 12:45:11
+======================================================================
+
+Logging to: test_log_20251121_124511.txt
+
+Sample database created at: sample.db
+
+============================================================
+Initializing agent...
+============================================================
+
+============================================================
+Running test 1/6: Schema Discovery
+============================================================
+
+============================================================
+TEST 1: Schema Discovery
+============================================================
+
+Test Result: Available tables: customers, orders
+✓ Test 1 PASSED
+
+[Waiting 8s before next test to avoid rate limits...]
+
+============================================================
+Running test 2/6: Simple Count
+============================================================
+
+============================================================
+TEST 2: Simple Count
+============================================================
+
+Test Result: There are 6 orders.
+✓ Test 2 PASSED
+
+[Waiting 8s before next test to avoid rate limits...]
+
+============================================================
+Running test 3/6: Aggregation
+============================================================
+
+============================================================
+TEST 3: Aggregation
+============================================================
+
+Test Result: The total amount of all orders is 2059.94.
+✓ Test 3 PASSED
+
+[Waiting 8s before next test to avoid rate limits...]
+
+============================================================
+Running test 4/6: Filtering
+============================================================
+
+============================================================
+TEST 4: Filtering
+============================================================
+
+Test Result: There is 1 customer from Chicago.
+✓ Test 4 PASSED
+
+[Waiting 8s before next test to avoid rate limits...]
+
+============================================================
+Running test 5/6: Customer Count
+============================================================
+
+============================================================
+TEST 5: Customer Count
+============================================================
+
+Test Result: There are 5 customers in the database.
+✓ Test 5 PASSED
+
+[Waiting 8s before next test to avoid rate limits...]
+
+============================================================
+Running test 6/6: Error Recovery
+============================================================
+
+============================================================
+TEST 6: Error Recovery
+============================================================
+
+Test Result: I cannot find information about employees. The available tables are `customers` and `orders`.
+✓ Test 6 PASSED
+
+============================================================
+TEST SUMMARY: 6 passed, 0 failed out of 6
+============================================================
+🎉 ALL TESTS PASSED!
+
+✓ Complete log saved to: test_log_20251121_124511.txt
