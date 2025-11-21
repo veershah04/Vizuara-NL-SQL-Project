@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 SQL Database Agent (From Scratch)
+# 🤖 SQL Database Agent From Scratch
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash-orange.svg)
