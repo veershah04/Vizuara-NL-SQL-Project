@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🤖 SQL Database Agent From Scratch
+# 🤖 SQL Database Agent (From Scratch)
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Gemini](https://img.shields.io/badge/LLM-Gemini%201.5%20Flash-orange.svg)
+![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash-orange.svg)
 
 *A lightweight ReAct-based agent that interprets natural language queries and interacts with SQL databases*
 
@@ -36,8 +36,8 @@ This project implements a complete SQL database agent **from scratch** without u
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sql-database-agent.git
-cd sql-database-agent
+git clone https://github.com/veershah04/Vizuara-NL-SQL-Project.git
+cd Vizuara-NL-SQL-Project
 ```
 
 ### 2. Install Dependencies
@@ -51,7 +51,7 @@ pip install google-generativeai
 Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey) and set it in the code files:
 
 ```python
-GEMINI_API_KEY = "your_api_key_here"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 ```
 
 ## 💻 Usage
@@ -93,7 +93,7 @@ The agent has access to three tools for database interaction:
 ## 📖 Example Run with Trace
 
 ```
-Using model: gemini-1.5-flash
+Using model: gemini-2.5-flash
 ✓ Agent ready!
 
 ============================================================
@@ -142,7 +142,7 @@ sql-database-agent/
 
 ## ⚙️ Technical Specifications
 
-- **LLM**: Google Gemini 1.5 Flash (15 RPM free tier)
+- **LLM**: Google Gemini 2.5 Flash
 - **Database**: SQLite (read-only connection)
 - **Max Steps**: 10 per query (configurable)
 - **Row Limit**: 100 rows per query (auto-enforced)
@@ -162,7 +162,3 @@ sql-database-agent/
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
-
-<div align="center">
-Made with ❤️ using Google Gemini 1.5 Flash
-</div>
